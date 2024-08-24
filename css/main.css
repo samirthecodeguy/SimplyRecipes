@@ -391,7 +391,7 @@ Navbar
 
 /***** page *****/
 .page {
-  background-color: lightcoral;
+  background-color: lightgreen;
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -401,6 +401,47 @@ Navbar
 }
 
 /***** End page *****/
+
+/***** hero *****/
+.hero {
+  height: 40vh;
+  background-image: url(../assets/main.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: var(--borderRadius);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.hero-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  border-radius: var(--borderRadius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-text {
+  text-align: center;
+  color: var(--white);
+}
+
+@media screen and (min-width:768px) {
+  .hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+}
+
+/***** End hero *****/
+
 
 /***** footer *****/
 .page-footer {
