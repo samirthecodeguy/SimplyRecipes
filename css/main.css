@@ -387,7 +387,40 @@ Navbar
     margin-right: 0;
   }
 
-
-
-
 }
+
+/***** page *****/
+.page {
+  background-color: lightcoral;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: calc(100vh - (6rem + 4rem));
+  /* height: 100vh; */
+}
+
+/***** End page *****/
+
+/***** footer *****/
+.page-footer {
+  position: relative;
+  top: 100%;
+  height: 4rem;
+  background-color: var(--black);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-footer p {
+  margin: 0;
+}
+
+.page-footer a,
+.footer-logo {
+  color: var(--primary-500);
+}
+
+/***** End footer *****/
